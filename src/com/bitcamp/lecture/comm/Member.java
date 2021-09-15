@@ -15,7 +15,7 @@ public class Member {
 		
 	}
 	
-	public Member(String id, String pwd, String name, String gender, String birthday, String phone, String lastUpdate,
+	public Member(String id, String pwd, String name, String gender, String birthday, String phone,
 			String email) {
 		this.id = id;
 		this.pwd = pwd;
@@ -23,7 +23,6 @@ public class Member {
 		this.gender = gender;
 		this.birthday = birthday;
 		this.phone = phone;
-		this.lastUpdate = lastUpdate;
 		this.email = email;
 	}
 
